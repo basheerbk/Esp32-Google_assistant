@@ -4,19 +4,19 @@ include <WiFi.h>
 
 #include "Adafruit_MQTT_Client.h"
 
-#define SSID       "POCO_X3"
+#define SSID      " "     //WIFI NETWORK NAME
 
-#define Password      "1234567980"
+#define Password    "   "//PASSWORD
 
 #define AIO_SERVER      "io.adafruit.com"
 
 #define AIO_SERVERPORT  1883                  
 
-#define AIO_USERNAME    "makerbk"
+#define AIO_USERNAME   "  " // ENTER USERNAME
 
-#define AIO_KEY         "aio_moBF93WgxJpf1EDClC8agTrGvWhq"
+#define AIO_KEY         "  " // ENTER AIO KEY
 
-int ledPin = ;
+int ledPin = 19 ;
 
 WiFiClient client;     
 
